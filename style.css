@@ -10,11 +10,15 @@ main{
     flex-direction: column;
     margin: 0 auto;
     width: 1280px;
+    
+    
+    box-shadow: 0 0px 4px 4px  rgba(0, 0, 0, 0.45);
+}
+
+.main-index{
     background-image: url(assets/photos/09-day.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    box-shadow: 0 0px 4px 4px  rgba(0, 0, 0, 0.45);
 }
 
 /* header*/
@@ -86,12 +90,16 @@ align-self: center;
 
 /* about.html start */
 
+.main-about {
+    background-color: rgb(210, 246, 213);
+    height: 100vh;
+}
+
 .container-about{
 display: grid;
 grid-template-columns: 2,1fr;
 color: rgb(0, 0, 0);
-background-color: rgba(238, 236, 236, 0.7);
-height: 100vh;
+
 }
 
 /* vänster column*/
@@ -140,6 +148,136 @@ li{
 /* about.html slut */
 
 /* våraRum.html start */
+
+.main-våraRum{
+    background-color: rgb(210, 246, 213);
+}
+
+
+.bookingFormuler{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    background-color: rgb(190, 185, 176);
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+
+}
+
+.people{
+font-size: 1rem;
+margin: 0.5rem;
+border-radius: 1rem;
+}
+
+.dateFromDateTo{
+display: flex;
+flex-direction: row;
+}
+
+.dateFromDateTo label{
+    font-size: 1.5rem;
+}
+
+.dateFrom{
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.dateTo{
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+input[type=submit]{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+input[type=submit]:hover{
+    background-color: rgb(238, 252, 252)
+}
+
+/* boknings formulär slut */
+
+.ourRooms{
+margin-bottom: 1rem;
+}
+
+.standardRoom{
+    background-color: rgb(255, 255, 255);
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 2,1fr;
+    grid-template-rows: repeat(3) 0.5fr 1 fr 0.5fr;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+
+}
+
+.standardRoom img{
+    grid-column: 1;
+    grid-row: 1/ span 3;
+    max-width: 500px;
+    margin: 0.5rem;
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 1rem;
+}
+
+.ourRooms-standardRoom-h3{
+grid-column: 2;
+grid-row: 1;
+font-size: 2rem;
+display: flex;
+justify-content: center;
+}
+
+.ourRooms-standardRoom-P{
+grid-column: 2;
+grid-row: 2;
+max-width: 300px;
+display: flex;
+justify-content: center;
+font-size: 1.2rem;
+}
+
+.ourRooms-standardRoom-Button{
+grid-column: 2;
+grid-row: 3;
+max-width: 4rem;
+max-height: 2rem;
+font-size: 1.2rem;
+margin: 1rem;
+background-color:rgb(190, 185, 176); 
+color: #000000;
+cursor: pointer;
+border: none;
+border-radius: 1rem;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+.ourRooms-standardRoom-Button:hover{
+    background-color:rgb(172, 163, 147) ;
+}
+
+/* våraRum.html slut*/
+
+/* media screen start */
 
 
 

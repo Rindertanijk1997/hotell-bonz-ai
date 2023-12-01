@@ -1,21 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotell bonz ai</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <main>
+    <main class="main-våraRum">
         <header>
             <a href="about.html" class="headerButton">Om oss</a>
             <a href="index.html" class="headerButton">Hem</a>
         </header>
-       
+        <section class="bookingFormuler">
+            <input type="number" class="people" placeholder="Antal Personer">
+            <section class="dateFromDateTo">
+                <label for="dateFrom">Från:</label>
+                <input type="date" class="dateFrom" placeholder="Från:">
+                <label for="DateTo">Till:</label>
+                <input type="date" class="dateTo" placeholder="Till:">
+            </section>
+            <input type="submit" class="submitbutton" value="Sök">
+        </section>
+        <section class="ourRooms">
+
+            <section class="standardRoom">
+                <img src="assets/photos/06-day.jpg" alt="room">
+                <h3 class="ourRooms-standardRoom-h3">Standard Rum</h3>
+                <p class="ourRooms-standardRoom-P">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga facere accusantium veniam nisi corrupti perspiciatis quis magni blanditiis sint!
+                    Blanditiis officia placeat ipsam minus explicabo, natus sint? Eveniet, cupiditate.
+                </p>
+
+                <button class="ourRooms-standardRoom-Button">Välj</button>
+
+            </section>
+
+            <section class="standardRoom">
+                <img src="assets/photos/02-day.jpg" alt="room">
+                <h3 class="ourRooms-standardRoom-h3">VIP Rum</h3>
+                <p class="ourRooms-standardRoom-P">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga facere accusantium veniam nisi corrupti perspiciatis quis magni blanditiis sint!
+                    Blanditiis officia placeat ipsam minus explicabo, natus sint? Eveniet, cupiditate.
+                </p>
+
+                <button class="ourRooms-standardRoom-Button">Välj</button>
+
+            </section>
+
+
+
+        </section>
 
 
     </main>
-    
+
 </body>
+
 </html>
