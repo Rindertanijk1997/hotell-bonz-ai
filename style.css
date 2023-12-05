@@ -90,7 +90,6 @@ align-self: center;
 
 .main-about {
     background-color: rgb(210, 246, 213);
-   
     max-width: 100%;
     
 }
@@ -109,7 +108,7 @@ grid-column: 1;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-top: 80px;
+padding: 3rem;
 
 
 }
@@ -132,7 +131,7 @@ grid-column: 2;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-top: 80px;
+padding: 3rem;
 
 }
 
@@ -284,6 +283,7 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
         display: flex;
         flex-direction: column;
         width: auto;
+        background-position: center;
     
     }
 
