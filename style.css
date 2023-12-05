@@ -29,6 +29,7 @@ height: 5rem;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+
 }
 
 .headerButton{
@@ -56,9 +57,6 @@ h1{
  text-align: center;
 }
 
-.mainLogoSection{
-
-}
 
 .hotelLogo{
 width: 17rem;
@@ -92,12 +90,14 @@ align-self: center;
 
 .main-about {
     background-color: rgb(210, 246, 213);
-    height: 100vh;
+   
+    max-width: 100%;
+    
 }
 
 .container-about{
 display: grid;
-grid-template-columns: 2,1fr;
+grid-template-columns: 2 1fr;
 color: rgb(0, 0, 0);
 
 }
@@ -121,7 +121,7 @@ h2{
 
 .aboutParagraf{
     font-size: 1.5rem;
-    width: 500px;
+    max-width: 100%;
     
 }
 
@@ -138,7 +138,7 @@ margin-top: 80px;
 
 ul{
     font-size: 1.5rem;
-    width: 500px;
+   
 }
 
 li{
@@ -159,7 +159,7 @@ li{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    max-width: 1000px;
+    max-width: 100%;
     border-radius: 1rem;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
     background-color: rgb(190, 185, 176);
@@ -279,7 +279,129 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
 
 /* media screen start */
 
+@media screen and (max-width: 420px) {
+    .main-index { 
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    
+    }
 
+    .mainButton{
+        font-size: 3rem;
+    }
+    
+/* index.html slut */
+
+/* about.html start */
+
+   .main-about{
+    height: auto;
+    
+
+   }
+   .container-about{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+    max-width: 100%;
+    overflow: hidden;
+   }
+
+
+   .aboutUs{
+    margin-top: 20px;
+    padding: 1.3rem;
+}
+
+.aboutParagraf{
+    font-size: 1.2rem;
+max-width: 370px;
+}
+
+.thingsToDo{
+    margin-top: 20px;
+    padding: 0.7rem;
+}
+
+ul{
+    font-size: 1.2rem;
+max-width: 370px;
+
+}
+
+   
+/* about.html slut */
+
+/* våraRum.html start */
+
+
+.main-våraRum{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.bookingFormuler{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 320px;
+    height: auto;
+    justify-content: center;
+    
+}
+
+.dateFromDateTo{
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+}
+
+.dateFrom{
+    display: flex;
+    flex-direction: row;
+}
+
+.dateTo{
+    display: flex;
+    flex-direction: row;
+}
+
+.ourRooms{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.standardRoom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    box-shadow: none;
+    border: 2px solid rgb(53, 53, 53);
+     
+}
+
+.standardRoom img{
+    max-width: 320px;
+    height: 100%;
+}
+
+.ourRooms-standardRoom-Button{
+    width: 100%;
+}
+
+/* våraRum.html klar */
+
+
+}
 
 
 
