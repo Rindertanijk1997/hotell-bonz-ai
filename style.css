@@ -1,21 +1,21 @@
-body{
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-color: rgb(219, 219, 219);
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 1280px;
-    
-    
-    box-shadow: 0 0px 4px 4px  rgba(0, 0, 0, 0.45);
+
+
+    box-shadow: 0 0px 4px 4px rgba(0, 0, 0, 0.45);
 }
 
-.main-index{
+.main-index {
     background-image: url(assets/photos/09-day.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,51 +23,51 @@ main{
 
 /* header*/
 
-header{
-background-color: rgba(3, 3, 3, 0.4);
-height: 5rem;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
+header {
+    background-color: rgba(3, 3, 3, 0.4);
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
-.headerButton{
-font-size: 2.5rem;
-color: aliceblue;
-text-decoration: none;
+.headerButton {
+    font-size: 2.5rem;
+    color: aliceblue;
+    text-decoration: none;
 }
 
-.headerButton:hover{
+.headerButton:hover {
     color: black;
     transition: 0.7s;
 }
 
 /* container första sidan*/
 
-.container{
-display: flex;
-flex-direction: column;
-justify-content: center;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
-h1{
- font-size: 3rem; 
- text-align: center;
+h1 {
+    font-size: 3rem;
+    text-align: center;
 }
 
 
-.hotelLogo{
-width: 17rem;
-align-self: center;
+.hotelLogo {
+    width: 17rem;
+    align-self: center;
 }
 
 /* boka rum knapp */
 
-.mainButton{
+.mainButton {
     font-size: 5rem;
-    color:rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
     background-color: black;
     text-decoration: none;
     justify-self: center;
@@ -75,10 +75,10 @@ align-self: center;
     margin: 4rem;
     padding: 1rem;
     border-radius: 2rem;
-    
+
 }
 
-.mainButton:hover{
+.mainButton:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     transition: 0.7s;
@@ -91,56 +91,56 @@ align-self: center;
 .main-about {
     background-color: rgb(210, 246, 213);
     max-width: 100%;
-    
+
 }
 
-.container-about{
-display: grid;
-grid-template-columns: 2 1fr;
-color: rgb(0, 0, 0);
+.container-about {
+    display: grid;
+    grid-template-columns: 2 1fr;
+    color: rgb(0, 0, 0);
 
 }
 
 /* vänster column*/
 
-.aboutUs{
-grid-column: 1;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 3rem;
+.aboutUs {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
 
 
 }
 
-h2{
+h2 {
     font-size: 3rem;
-    
+
 }
 
-.aboutParagraf{
+.aboutParagraf {
     font-size: 1.5rem;
     max-width: 100%;
-    
+
 }
 
 /* höger column*/
 
-.thingsToDo{
-grid-column: 2;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 3rem;
+.thingsToDo {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
 
 }
 
-ul{
+ul {
     font-size: 1.5rem;
-   
+
 }
 
-li{
+li {
     padding: 5px;
 }
 
@@ -148,12 +148,12 @@ li{
 
 /* våraRum.html start */
 
-.main-våraRum{
+.main-våraRum {
     background-color: rgb(210, 246, 213);
 }
 
 
-.bookingFormuler{
+.bookingFormuler {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -168,36 +168,36 @@ li{
 
 }
 
-.people{
-font-size: 1rem;
-margin: 0.5rem;
-border-radius: 1rem;
+.people {
+    font-size: 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
 }
 
-.dateFromDateTo{
-display: flex;
-flex-direction: row;
+.dateFromDateTo {
+    display: flex;
+    flex-direction: row;
 }
 
-.dateFromDateTo label{
+.dateFromDateTo label {
     font-size: 1.5rem;
 }
 
-.dateFrom{
+.dateFrom {
     font-size: 1rem;
     border-radius: 0.5rem;
     margin: 0 1rem;
     cursor: pointer;
 }
 
-.dateTo{
+.dateTo {
     font-size: 1rem;
     border-radius: 0.5rem;
     margin: 0 1rem;
     cursor: pointer;
 }
 
-input[type=submit]{
+input[type=submit] {
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 1rem;
@@ -205,30 +205,30 @@ input[type=submit]{
     background-color: rgb(255, 255, 255);
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
     background-color: rgb(238, 252, 252)
 }
 
 /* boknings formulär slut */
 
-.ourRooms{
-margin-bottom: 1rem;
+.ourRooms {
+    margin-bottom: 1rem;
 }
 
-.standardRoom{
+.standardRoom {
     background-color: rgb(255, 255, 255);
     max-width: 850px;
     margin: 0 auto;
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: 2,1fr;
+    grid-template-columns: 2, 1fr;
     grid-template-rows: repeat(3) 0.5fr 1 fr 0.5fr;
     border-radius: 1rem;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
 
 }
 
-.standardRoom img{
+.standardRoom img {
     grid-column: 1;
     grid-row: 1/ span 3;
     max-width: 500px;
@@ -237,41 +237,41 @@ margin-bottom: 1rem;
     border-radius: 1rem;
 }
 
-.ourRooms-standardRoom-h3{
-grid-column: 2;
-grid-row: 1;
-font-size: 2rem;
-display: flex;
-justify-content: center;
+.ourRooms-standardRoom-h3 {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
-.ourRooms-standardRoom-P{
-grid-column: 2;
-grid-row: 2;
-max-width: 300px;
-display: flex;
-justify-content: center;
-font-size: 1.2rem;
+.ourRooms-standardRoom-P {
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
 }
 
-.ourRooms-standardRoom-Button{
-grid-column: 2;
-grid-row: 3;
-max-width: 4rem;
-max-height: 2rem;
-font-size: 1.2rem;
-margin: 1rem;
-background-color:rgb(190, 185, 176); 
-color: #000000;
-cursor: pointer;
-border: none;
-border-radius: 1rem;
-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+.ourRooms-standardRoom-Button {
+    grid-column: 2;
+    grid-row: 3;
+    max-width: 4rem;
+    max-height: 2rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+    background-color: rgb(190, 185, 176);
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
 
 }
 
-.ourRooms-standardRoom-Button:hover{
-    background-color:rgb(172, 163, 147) ;
+.ourRooms-standardRoom-Button:hover {
+    background-color: rgb(172, 163, 147);
 }
 
 /* våraRum.html slut*/
@@ -279,129 +279,127 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
 /* media screen start */
 
 @media screen and (max-width: 420px) {
-    .main-index { 
+    .main-index {
         display: flex;
         flex-direction: column;
         width: auto;
         background-position: center;
-    
+
     }
 
-    .mainButton{
+    .mainButton {
         font-size: 3rem;
     }
-    
-/* index.html slut */
 
-/* about.html start */
+    /* index.html slut */
 
-   .main-about{
-    height: auto;
-    
+    /* about.html start */
 
-   }
-   .container-about{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-    max-width: 100%;
-    overflow: hidden;
-   }
+    .main-about {
+        height: auto;
 
 
-   .aboutUs{
-    margin-top: 20px;
-    padding: 1.3rem;
+    }
+
+    .container-about {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+
+    .aboutUs {
+        margin-top: 20px;
+        padding: 1.3rem;
+    }
+
+    .aboutParagraf {
+        font-size: 1.2rem;
+        max-width: 370px;
+    }
+
+    .thingsToDo {
+        margin-top: 20px;
+        padding: 0.7rem;
+    }
+
+    ul {
+        font-size: 1.2rem;
+        max-width: 370px;
+
+    }
+
+
+    /* about.html slut */
+
+    /* våraRum.html start */
+
+
+    .main-våraRum {
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .bookingFormuler {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 320px;
+        height: auto;
+        justify-content: center;
+
+    }
+
+    .dateFromDateTo {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0.5rem;
+    }
+
+    .dateFrom {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .dateTo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ourRooms {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .standardRoom {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        box-shadow: none;
+        border: 2px solid rgb(53, 53, 53);
+
+    }
+
+    .standardRoom img {
+        max-width: 320px;
+        height: 100%;
+    }
+
+    .ourRooms-standardRoom-Button {
+        width: 100%;
+    }
+
+    /* våraRum.html klar */
+
+
 }
-
-.aboutParagraf{
-    font-size: 1.2rem;
-max-width: 370px;
-}
-
-.thingsToDo{
-    margin-top: 20px;
-    padding: 0.7rem;
-}
-
-ul{
-    font-size: 1.2rem;
-max-width: 370px;
-
-}
-
-   
-/* about.html slut */
-
-/* våraRum.html start */
-
-
-.main-våraRum{
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-}
-
-.bookingFormuler{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 320px;
-    height: auto;
-    justify-content: center;
-    
-}
-
-.dateFromDateTo{
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 0.5rem;
-}
-
-.dateFrom{
-    display: flex;
-    flex-direction: row;
-}
-
-.dateTo{
-    display: flex;
-    flex-direction: row;
-}
-
-.ourRooms{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    
-   
-}
-
-.standardRoom{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 90%;
-    height: auto;
-    box-shadow: none;
-    border: 2px solid rgb(53, 53, 53);
-     
-}
-
-.standardRoom img{
-    max-width: 320px;
-    height: 100%;
-}
-
-.ourRooms-standardRoom-Button{
-    width: 100%;
-}
-
-/* våraRum.html klar */
-
-
-}
-
-
-
